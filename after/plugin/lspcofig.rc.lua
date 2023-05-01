@@ -8,7 +8,7 @@ local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 
 require'lspconfig'.cssls.setup {
-               capabilities = capabilities,
+  capabilities = capabilities,
   cmd = { "vscode-css-language-server", "--stdio" },
   filetypes = { "css", "scss", "less" },
   settings = {
@@ -31,4 +31,11 @@ require'lspconfig'.clangd.setup{
   filetypes = { "c", "cpp", "objc", "objcpp", "cuda", "proto" },
   single_file_support = true
 }
+
+require'lspconfig'.pylsp.setup{
+  cmd = { "pylsp" },
+  filetypes = { "python" },
+  single_file_support = true
+}
+
 

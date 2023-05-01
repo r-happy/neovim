@@ -35,7 +35,17 @@ packer.startup(function(use)
   use "lukas-reineke/indent-blankline.nvim"
 
   use 'folke/tokyonight.nvim'
+  use 'navarasu/onedark.nvim'
+  use {
+    'lewis6991/gitsigns.nvim',
+  }
 
   use('MunifTanjim/prettier.nvim')
 
 end)
+
+-- Lua
+require('onedark').setup {
+  style = 'darker'
+}
+require('onedark').load()
