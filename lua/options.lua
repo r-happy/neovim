@@ -27,14 +27,11 @@ vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
 vim.opt.wrap = false -- No Wrap lines
 vim.opt.backspace = { 'start', 'eol', 'indent' }
-vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
-vim.opt.wildignore:append { '*node_modules*' }
-vim.cmd('set signcolumn=yes')
+vim.cmd('set noswapfile')
+vim.cmd('set pumblend=20 ')
 
 vim.opt.termguicolors = true
 vim.opt.cursorline = true
-
-vim.cmd('colorscheme tokyonight-night')
 
 -- Turn off paste mode when leaving insert
 vim.api.nvim_create_autocmd("InsertLeave", {

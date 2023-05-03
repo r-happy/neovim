@@ -1,3 +1,6 @@
-vim.api.nvim_set_keymap('n', '<C-n>', '<Cmd>TablineBufferNext<CR>', {})
-vim.api.nvim_set_keymap('n', '<C-f>', '<Cmd>NvimTreeToggle<CR>', {})
+vim.api.nvim_set_keymap('n', '<C-n>', '<Cmd>BufferLineCycleNext<CR>', {})
+vim.api.nvim_set_keymap('n', '<C-p>', '<Cmd>BufferLineCyclePrev<CR>', {})
+vim.api.nvim_set_keymap('n', '<C-d>', '<Cmd>NvimTreeToggle<CR>', {})
+vim.api.nvim_set_keymap('n', '<C-f>', '<Cmd>Telescope file_browser<CR>', {})
 vim.api.nvim_set_keymap('n', '<S-n>', '<C-w>w', {})
+vim.api.nvim_set_keymap('n', '<S-p>', '<C-w>h', {})
