@@ -20,24 +20,4 @@ require('telescope').setup{
     -- Now the picker_config_key will be applied every time you call this
     -- builtin picker
   },
-  extensions = {
-    file_browser = {
-      theme = "dropdown",
-      hijack_netrw = true,
-      mappings = {
-        -- your custom insert mode mappings
-        ["i"] = {
-          ["<C-w>"] = function() vim.cmd('normal vbd') end,
-        },
-        ["n"] = {
-          -- your custom normal mode mappings
-          ["/"] = function()
-            vim.cmd('startinsert')
-          end
-        },
-      },
-    }
-  },
 }
-
-require("telescope").load_extension "file_browser"

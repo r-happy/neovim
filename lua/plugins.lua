@@ -13,6 +13,7 @@ packer.startup(function(use)
   use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
   use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
   use 'hrsh7th/nvim-cmp' -- Completion
+  use 'L3MON4D3/LuaSnip'
   use 'neovim/nvim-lspconfig' -- LSP
   use 'williamboman/mason.nvim'
   use 'williamboman/mason-lspconfig.nvim'
@@ -35,14 +36,10 @@ packer.startup(function(use)
   }
 
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
-  use {
-    "nvim-telescope/telescope-file-browser.nvim",
-    requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
-  }
-
+  use {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"}
 end)
 
 require('onedark').setup {
-    style = 'cool'
+  style = 'dark'
 }
 require('onedark').load()

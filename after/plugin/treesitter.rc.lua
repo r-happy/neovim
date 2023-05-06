@@ -11,6 +11,17 @@ require'nvim-treesitter.configs'.setup {
 
   -- List of parsers to ignore installing (for "all")
   ignore_install = { "javascript" },
+  indent = {
+    enable = true,
+    disable = {},
+  },
+  autotag = {
+    enable = true,
+  },
+  context_commentstring = {
+    enable         = true,
+    enable_autocmd = false,
+  },
 
   ---- If you need to change the installation directory of the parsers (see -> Advanced Setup)
   -- parser_install_dir = "/some/path/to/store/parsers", -- Remember to run vim.opt.runtimepath:append("/some/path/to/store/parsers")!

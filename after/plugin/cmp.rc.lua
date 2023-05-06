@@ -24,11 +24,15 @@ cmp.setup({
     { name = 'buffer' },
   }),
   formatting = {
-    format = lspkind.cmp_format({ with_text = false, maxwidth = 50 })
+    format = lspkind.cmp_format({
+      mode = 'symbol',
+      with_text = false,
+      maxwidth = 30,
+    })
   }
 })
 
 vim.cmd [[
-  set completeopt=menuone,noinsert,noselect
-  highlight! default link CmpItemKind CmpItemMenuDefault
+set completeopt=menuone,noinsert,noselect
+highlight! default link CmpItemKind CmpItemMenuDefault
 ]]

@@ -28,7 +28,7 @@ vim.opt.tabstop = 2
 vim.opt.wrap = false -- No Wrap lines
 vim.opt.backspace = { 'start', 'eol', 'indent' }
 vim.cmd('set noswapfile')
-vim.cmd('set pumblend=20 ')
+--vim.cmd('set pumblend=20 ')
 
 vim.opt.termguicolors = true
 vim.opt.cursorline = true
