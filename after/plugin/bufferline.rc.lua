@@ -6,7 +6,7 @@ bufferline.setup({
     separator_style = 'slant',
     show_buffer_close_icons = true,
     show_close_icon = true,
-    color_icons = true
+    color_icons = true,
   },
 })
 

@@ -28,6 +28,9 @@ vim.opt.tabstop = 2
 vim.opt.wrap = false -- No Wrap lines
 vim.opt.backspace = { 'start', 'eol', 'indent' }
 vim.cmd('set noswapfile')
+--vim.o.background = "dark" -- or "light" for light mode
+--vim.cmd([[colorscheme gruvbox]])
+--vim.cmd[[colorscheme dracula]]
 --vim.cmd('set pumblend=20 ')
 
 vim.opt.termguicolors = true

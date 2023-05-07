@@ -25,6 +25,9 @@ packer.startup(function(use)
   use "lukas-reineke/indent-blankline.nvim"
 
   use 'navarasu/onedark.nvim'
+  use { "ellisonleao/gruvbox.nvim" }
+  -- Using Packer:
+  use 'Mofiqul/dracula.nvim'
   use {
     'lewis6991/gitsigns.nvim',
   }
