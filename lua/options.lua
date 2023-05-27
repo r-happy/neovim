@@ -30,7 +30,7 @@ vim.opt.backspace = { 'start', 'eol', 'indent' }
 vim.cmd('set noswapfile')
 --vim.o.background = "dark" -- or "light" for light mode
 --vim.cmd([[colorscheme gruvbox]])
---vim.cmd[[colorscheme dracula]]
+vim.cmd[[colorscheme nord]]
 --vim.cmd('set pumblend=20 ')
 
 vim.opt.termguicolors = true

@@ -33,6 +33,7 @@ packer.startup(function(use)
   }
 
   use {'nvim-tree/nvim-tree.lua'}
+  use {'nordtheme/vim'}
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
@@ -41,8 +42,3 @@ packer.startup(function(use)
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
   use {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"}
 end)
-
-require('onedark').setup {
-  style = 'dark'
-}
-require('onedark').load()
