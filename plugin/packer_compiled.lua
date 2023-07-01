@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/rei/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["auto-save.nvim"] = {
+    loaded = true,
+    path = "/home/rei/.local/share/nvim/site/pack/packer/start/auto-save.nvim",
+    url = "https://github.com/pocco81/auto-save.nvim"
+  },
+  ["ayu-vim"] = {
+    loaded = true,
+    path = "/home/rei/.local/share/nvim/site/pack/packer/start/ayu-vim",
+    url = "https://github.com/ayu-theme/ayu-vim"
+  },
   ["bufferline.nvim"] = {
     loaded = true,
     path = "/home/rei/.local/share/nvim/site/pack/packer/start/bufferline.nvim",
@@ -94,10 +104,20 @@ _G.packer_plugins = {
     path = "/home/rei/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["dracula.nvim"] = {
+    loaded = true,
+    path = "/home/rei/.local/share/nvim/site/pack/packer/start/dracula.nvim",
+    url = "https://github.com/Mofiqul/dracula.nvim"
+  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/rei/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/home/rei/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
@@ -178,6 +198,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rei/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/rei/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
+  vim = {
+    loaded = true,
+    path = "/home/rei/.local/share/nvim/site/pack/packer/start/vim",
+    url = "https://github.com/nordtheme/vim"
   }
 }
 

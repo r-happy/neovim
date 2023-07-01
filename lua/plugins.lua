@@ -42,4 +42,8 @@ packer.startup(function(use)
 
   use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
   use {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"}
+  use {"folke/tokyonight.nvim"}
+  use {"pocco81/auto-save.nvim"}
 end)
+
+require('onedark').load()

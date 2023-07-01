@@ -38,4 +38,5 @@ require'lspconfig'.pylsp.setup{
   single_file_support = true
 }
 
+require'lspconfig'.gopls.setup{}
 
